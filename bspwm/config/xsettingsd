@@ -1,0 +1,8 @@
+Net/ThemeName "Mint-L-Dark-Grey"
+Net/IconThemeName "Mint-L-Dark-Grey"
+Gtk/CursorThemeName "Bibata-Modern-Classic"
+Gtk/DecorationLayout ":"
+Xft/Hinting 1
+Xft/HintStyle "hintfull"
+Xft/Antialias 1
+Xft/RGBA "none"

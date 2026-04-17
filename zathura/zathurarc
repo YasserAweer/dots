@@ -1,0 +1,41 @@
+# Documentation: See man `man zathurarc'
+# Config created by selmer443 https://www.github.com/selmer443/dotfiles
+# Copyright (C) 2022 selmer443
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# One page per row by default
+set pages-per-row 1
+
+#stop at page boundries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+set zoom-min 10
+set guioptions ""
+
+# set font "Roboto mono 15"
+set default-bg "#24273A"
+set default-fg "#CAD3F5"
+
+# Change the background to a transparent dark gray/black
+set default-bg "rgba(36,39,58,0.8)"
+set recolor-lightcolor "rgba(36,39,58,0.8)"
+
+# Keep your foreground (text) solid
+set default-fg "#CAD3F5"
+set recolor-darkcolor "#CAD3F5"
+
+# Ensure recolor is on
+set recolor "true"
+
+set render-loading "false"
+set scroll-step 200
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+include catppuccin-mocha
+
